@@ -13,7 +13,7 @@ int main()
 	char choice = 48;
 	while (choice != 51)
 	{
-		cout << "Szyfr atbash - Jakub Wasik, grupa L2";
+		cout << "Szyfr atbash";
 		cout << "\n\n1.Szyfrowanie\n2.Deszyfrowanie\n3.Wyjscie\n\nWybor: ";
 		cin >> choice;
 		if (!isdigit(choice))

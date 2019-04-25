@@ -15,7 +15,7 @@ int main()
     int input = 0;
     while (input != 3)
     {
-        cout << "Szyfr polibiusza - Jakub Wasik, grupa L2";
+        cout << "Szyfr polibiusza";
         cout << "\n\n1.Szyfrowanie\n2.Deszyfrowanie\n3.Wyjscie\n\nWybor: ";
         cin >> input;
         switch (input)
@@ -90,10 +90,10 @@ void encrypt(string text)
         }
         else
         {
-            cout << "\n\nPodano letter nie bedacy litera!";
+            cout << "\n\nPodano znak nie bedacy litera!";
         }
     }
-    cout << "\n\nZaszyfrowany teks: ";
+    cout << "\n\nZaszyfrowany tekst: ";
     for (int i = 0; i < text.length(); i++)
     {
         if (cipher[i] != 0)
